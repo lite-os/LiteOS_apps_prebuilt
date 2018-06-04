@@ -17,4 +17,5 @@ PRODUCT_PACKAGES += \
     GBoard \
     RetroMusicPlayer \
     Clock \
-    GooglePhotos
+    GooglePhotos \
+    CPL
