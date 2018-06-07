@@ -15,7 +15,7 @@
 # Packages
 PRODUCT_PACKAGES += \
     GBoard \
-    RetroMusicPlayer \
     Clock \
     GooglePhotos \
-    CPL
+    CPL \
+    Stellio
