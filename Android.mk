@@ -95,7 +95,7 @@ DONT_DEXPREOPT_PREBUILTS := true
 include $(BUILD_PREBUILT)
 
 ###############################################################################
-# CPL_1.10_030618
+# CPL_1.10.2
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := CPL
@@ -125,5 +125,5 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := $(LOCAL_MODULE)/$(LOCAL_MODULE).apk
 LOCAL_DEX_PREOPT := false
 DONT_DEXPREOPT_PREBUILTS := true
-LOCAL_OVERRIDES_PACKAGES := Music
+LOCAL_OVERRIDES_PACKAGES := Music RetroMusicPlayer
 include $(BUILD_PREBUILT)
