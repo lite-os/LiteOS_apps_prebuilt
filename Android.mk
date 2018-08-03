@@ -112,7 +112,7 @@ LOCAL_OVERRIDES_PACKAGES := Home Launcer2 Launcher3
 include $(BUILD_PREBUILT)
 
 ###############################################################################
-# Stellio 5.0.0
+# Stellio 5.1.8
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Stellio
