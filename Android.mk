@@ -95,7 +95,7 @@ DONT_DEXPREOPT_PREBUILTS := true
 include $(BUILD_PREBUILT)
 
 ###############################################################################
-# CPL_1.10.3_300618
+# CPL 1.10.4.2
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := CPL
