@@ -18,4 +18,5 @@ PRODUCT_PACKAGES += \
     Clock \
     GooglePhotos \
     CPL \
-    Stellio
+    Stellio \
+    Markup

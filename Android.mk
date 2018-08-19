@@ -4,6 +4,22 @@ my_archs := arm arm64
 my_src_arch := $(call get-prebuilt-src-arch, $(my_archs))
 
 ###############################################################################
+# MarkupGoogle
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := Markup
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_BUILT_MODULE_STEM := package.apk
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_PRIVILEGED_MODULE := false
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_SRC_FILES := $(LOCAL_MODULE)/$(LOCAL_MODULE).apk
+LOCAL_DEX_PREOPT := false
+DONT_DEXPREOPT_PREBUILTS := true
+include $(BUILD_PREBUILT)
+
+###############################################################################
 # Google Keyboard 7.1.8.191763606
 
 include $(CLEAR_VARS)
