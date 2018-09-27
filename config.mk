@@ -17,5 +17,4 @@ PRODUCT_PACKAGES += \
     GBoard \
     Clock \
     GooglePhotos \
-    CPL \
     Stellio
