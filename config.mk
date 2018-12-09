@@ -15,6 +15,4 @@
 # Packages
 PRODUCT_PACKAGES += \
     GBoard \
-    Clock \
-    GooglePhotos \
-    Stellio
+    Clock
